@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18110c">
+  <meta name="description" content="KHURO — Premium handcrafted Charsadda & Peshawari Chappal collection. Pure full-grain leather, centuries of Pashtun heritage, made for contemporary living.">
+  <title>KHURO — Handcrafted Charsadda Chappal & Heritage Leather</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span class="announcement-badge">Authentic KP Heritage</span>
+      <span class="announcement-text">Hand-stitched in Charsadda, Khyber Pakhtunkhwa • Complimentary express delivery nationwide</span>
+      <a href="#collection" class="announcement-link">Explore Collection <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="KHURO Heritage Footwear Homepage">
+        <span class="brand-crest" aria-hidden="true">
+          <svg viewBox="0 0 36 36" width="34" height="34" fill="none">
+            <circle cx="18" cy="18" r="16.5" stroke="currentColor" stroke-width="1.4" opacity="0.8"/>
+            <path d="M12 25 L18 11 L24 25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="14" y1="21" x2="22" y2="21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="18" cy="8" r="1.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <div class="brand-text">
+          <span class="brand-name">KHURO</span>
+          <span class="brand-tagline">CHARSADDA · 1892</span>
+        </div>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#collection" class="nav-link">Collection</a>
+        <a href="#categories" class="nav-link">Categories</a>
+        <a href="#craft" class="nav-link">The Craft</a>
+        <a href="#featured" class="nav-link">Signature Pair</a>
+        <a href="#heritage" class="nav-link">Heritage</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button search-toggle" type="button" aria-label="Search collection">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </button>
+
+        <button class="cart-trigger" id="cart-open" type="button" aria-label="Open shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+            <path d="M3 6h18"></path>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-label">Bag</span>
+          <span class="cart-pill" id="cart-count" aria-live="polite">0</span>
+        </button>
+
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open mobile menu" aria-expanded="false" aria-controls="primary-nav">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Master Artisans of Khyber Pakhtunkhwa</span>
+          </div>
+          <h1 id="hero-heading" class="hero-title">
+            <span class="title-line">Timeless Pashtun</span>
+            <span class="title-line highlight-serif"><em>Footwear Elegance</em></span>
+          </h1>
+          <p class="hero-description">
+            Hand-stitched from full-grain double-tanned leather with the legendary tire-rubber sole. Each pair takes 18 hours of master cobbler craftsmanship in the historic lanes of Charsadda.
+          </p>
+
+          <div class="hero-cta-group">
+            <a class="btn btn-primary" href="#collection">
+              <span>Explore Collection</span>
+              <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 10h12M11 5l5 5-5 5"/>
+              </svg>
+            </a>
+            <a class="btn btn-ghost" href="#craft">
+              <span>Behind the Stitch</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <strong class="metric-val" data-target="100">100%</strong>
+              <span class="metric-label">Pure Cowhide Leather</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <strong class="metric-val" data-target="18">18+</strong>
+              <span class="metric-label">Hours Per Pair</span>
+            </div>
+            <div class="metric-divider" aria-hidden="true"></div>
+            <div class="metric-item">
+              <strong class="metric-val" data-target="4.9">4.9★</strong>
+              <span class="metric-label">Master Artisan Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-showcase">
+          <div class="hero-card-main">
+            <div class="hero-image-frame">
+              <img class="hero-product-img" src="assets/chappal-black-charsadda.png" alt="Authentic Black Leather Charsadda Peshawari Chappal with high gloss finish and hand-stitched detailing" width="460" height="600" fetchpriority="high">
+              <div class="hero-product-badge">
+                <span class="badge-sub">Signature Silhouette</span>
+                <span class="badge-title">THE CHARSADDA ROYAL</span>
+              </div>
+            </div>
+
+            <!-- Floating Artisan Floating Card -->
+            <div class="hero-floating-card">
+              <div class="artisan-avatar">
+                <img src="assets/artisan-workshop.jpg" alt="Artisan at work" width="48" height="48" loading="lazy">
+              </div>
+              <div class="artisan-info">
+                <strong>Authentic Charsadda Craft</strong>
+                <small>Bazaar-e-Chappals · Peshawar Valley</small>
+              </div>
+              <div class="artisan-tag">Verified</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero-scroll-btn" href="#categories" aria-label="Scroll to browse categories">
+        <span>Scroll to Discover</span>
+        <div class="mouse-icon" aria-hidden="true">
+          <span class="wheel"></span>
+        </div>
+      </a>
+    </section>
+
+    <!-- Category Highlights Section -->
+    <section class="categories-section" id="categories" aria-labelledby="categories-heading">
+      <div class="section-container">
+        <div class="section-header center-align">
+          <span class="section-eyebrow">Curated Collections</span>
+          <h2 id="categories-heading" class="section-title">Rooted in Tradition, <em>Tailored for Life</em></h2>
+          <p class="section-subtitle">Choose your style from timeless heritage editions to contemporary everyday interpretations.</p>
+        </div>
+
+        <div class="categories-grid">
+          <!-- Category 1 -->
+          <article class="cat-card cat-card-featured" data-category="classic">
+            <div class="cat-img-box">
+              <img src="assets/chappal-black-charsadda.png" alt="Classic Charsadda leather sandals" loading="lazy" width="600" height="450">
+              <div class="cat-overlay"></div>
+            </div>
+            <div class="cat-details">
+              <span class="cat-tag">Signature Heritage</span>
+              <h3 class="cat-name">The Classics</h3>
+              <p class="cat-desc">The authentic pointed toe, deep welt stitching, and iconic heavyweight recycled rubber sole.</p>
+              <button class="cat-cta-btn filter-pill-trigger" data-filter="classic" type="button">
+                <span>View Classics (4)</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Category 2 -->
+          <article class="cat-card" data-category="modern">
+            <div class="cat-img-box">
+              <img src="assets/chappal-brown-vibram.png" alt="Modern contemporary leather sandals and slides in saddle tan" loading="lazy" width="600" height="450">
+              <div class="cat-overlay"></div>
+            </div>
+            <div class="cat-details">
+              <span class="cat-tag">Contemporary Edit</span>
+              <h3 class="cat-name">Modern Forms</h3>
+              <p class="cat-desc">Refined lightweight silhouettes, cushioned insoles, and earthy burnished saddle tones.</p>
+              <button class="cat-cta-btn filter-pill-trigger" data-filter="modern" type="button">
+                <span>View Modern (4)</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Category 3 -->
+          <article class="cat-card" data-category="artisan">
+            <div class="cat-img-box">
+              <img src="assets/artisan-craft.jpg" alt="Master artisan cobbler stitching bespoke leather footwear by hand" loading="lazy" width="600" height="450">
+              <div class="cat-overlay"></div>
+            </div>
+            <div class="cat-details">
+              <span class="cat-tag">Master Cut</span>
+              <h3 class="cat-name">Bespoke &amp; Craft</h3>
+              <p class="cat-desc">Hand-embossed trims, double-sole Zalmi cuts, and custom heirloom wedding footwear.</p>
+              <a href="#craft" class="cat-cta-btn">
+                <span>The Story of Craft</span>
+                <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Strip -->
+    <section class="trust-banner" aria-label="Store guarantees">
+      <div class="section-container">
+        <div class="trust-grid">
+          <div class="trust-card">
+            <div class="trust-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>100% Genuine Full-Grain</h4>
+              <p>Double vegetable-tanned cowhide that patinas gracefully with wear.</p>
+            </div>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m4.93 4.93 4.24 4.24"/>
+                <path d="m14.83 9.17 4.24-4.24"/>
+                <path d="m14.83 14.83 4.24 4.24"/>
+                <path d="m9.17 14.83-4.24 4.24"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>Recycled Tyre Grip Sole</h4>
+              <p>Indestructible, slip-resistant grip engineered from heavy vehicle tyres.</p>
+            </div>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>Direct From Charsadda</h4>
+              <p>Zero middlemen. Supporting generational artisan families directly.</p>
+            </div>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-wrap">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                <line x1="12" y1="22.08" x2="12" y2="12"/>
+              </svg>
+            </div>
+            <div class="trust-text">
+              <h4>Custom EU Sizing (39–45)</h4>
+              <p>Precision sizing with natural arch curvature for all-day comfort.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Collection Section -->
+    <section class="collection-section" id="collection" aria-labelledby="collection-heading">
+      <div class="section-container">
+        <div class="collection-header-row">
+          <div>
+            <span class="section-eyebrow">The KHURO Catalogue</span>
+            <h2 id="collection-heading" class="section-title">Masterpieces of <em>Form &amp; Function</em></h2>
+          </div>
+          <p class="collection-intro">Eight signature interpretations crafted by master cobblers. Filter by classification, search by shade or profile, and reserve your pair.</p>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="catalog-toolbar">
+          <div class="filter-pills-group" role="group" aria-label="Filter collection by category">
+            <button class="filter-pill is-active" type="button" data-filter="all" aria-pressed="true">
+              All Pairs <span class="pill-count">8</span>
+            </button>
+            <button class="filter-pill" type="button" data-filter="classic" aria-pressed="false">
+              Classics <span class="pill-count">4</span>
+            </button>
+            <button class="filter-pill" type="button" data-filter="modern" aria-pressed="false">
+              New Forms <span class="pill-count">4</span>
+            </button>
+            <button class="filter-pill" type="button" data-filter="featured" aria-pressed="false">
+              Signature Pick
+            </button>
+          </div>
+
+          <div class="toolbar-controls">
+            <div class="search-field-wrap">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+              <label for="product-search" class="sr-only">Search products</label>
+              <input type="search" id="product-search" placeholder="Search by name, color, tag..." autocomplete="off">
+            </div>
+
+            <div class="sort-field-wrap">
+              <label for="product-sort" class="sr-only">Sort footwear</label>
+              <select id="product-sort" aria-label="Sort products">
+                <option value="featured">Sort: Featured</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+                <option value="newest">Newest Additions</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="catalog-status-bar">
+          <p id="results-count" class="results-count" aria-live="polite">Showing 8 pairs</p>
+          <button id="clear-filters" class="clear-filters-btn" type="button" hidden>
+            Reset Filters <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <!-- Dynamic Product Grid -->
+        <div class="products-grid" id="product-grid" aria-live="polite" aria-busy="false">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- Empty Results Message -->
+        <div class="empty-catalog-state" id="empty-results" hidden>
+          <div class="empty-icon" aria-hidden="true">🔍</div>
+          <h3>No matching pairs found</h3>
+          <p>We couldn't find any footwear matching your exact search or filter selection.</p>
+          <button class="btn btn-outline" id="empty-clear" type="button">Reset All Filters</button>
+        </div>
+
+        <div class="collection-footer-note">
+          <p><span>✦</span> <em>Illustrative Storefront</em>: Materials, artisanal specifications, sizing charts, and prices in PKR are curated for KHURO bespoke collection preview.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Craft Section -->
+    <section class="craft-section" id="craft" aria-labelledby="craft-heading">
+      <div class="craft-container">
+        <div class="craft-media-side">
+          <div class="craft-image-frame">
+            <img src="assets/artisan-workshop.jpg" alt="Artisan cobblers working diligently in a traditional leather shoe workshop" width="1280" height="853" loading="lazy">
+            <div class="craft-badge">
+              <span>Bespoke Workshop</span>
+              <strong>CHARSADDA, KP</strong>
+            </div>
+          </div>
+          <span class="photo-attribution">Workshop documentary photography by Yasar A. Babar · CC BY-SA 4.0</span>
+        </div>
+
+        <div class="craft-text-side">
+          <span class="section-eyebrow light">The Ancestral Workshop</span>
+          <h2 id="craft-heading" class="craft-title">
+            Molded by History.<br>
+            <em>Stitched by Hand.</em>
+          </h2>
+          <p class="craft-body">
+            The Charsadda chappal is not mere footwear; it is an enduring symbol of Pashtun identity, resilience, and masculine grace. Originating in the fertile Peshawar valley, this distinctive sandal was engineered to conquer rugged mountain terrain with unshakeable fortitude.
+          </p>
+          <p class="craft-body">
+            Every sole is sliced and shaped from heavy-duty rubber treads, bonded to layers of vegetable-tanned leather with thick nylon cord. No fast-fashion shortcuts. Just honest, timeless leatherwork honed over a century.
+          </p>
+
+          <div class="craft-steps-list">
+            <div class="craft-step">
+              <span class="step-num">01</span>
+              <div>
+                <strong>Selecting The Hide</strong>
+                <p>Double-thick full-grain cowhide conditioned with natural oils.</p>
+              </div>
+            </div>
+            <div class="craft-step">
+              <span class="step-num">02</span>
+              <div>
+                <strong>The Master Cut</strong>
+                <p>Curved brass stencils cut by hand to create the iconic cross-over vamps.</p>
+              </div>
+            </div>
+            <div class="craft-step">
+              <span class="step-num">03</span>
+              <div>
+                <strong>Saddle Stitching</strong>
+                <p>Twin needles locking every seam under immense tension for life-long durability.</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn btn-gold" href="#heritage">
+            <span>Discover The Valley Heritage</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Pair Showcase -->
+    <section class="spotlight-section" id="featured" aria-labelledby="featured-heading">
+      <div class="section-container">
+        <div class="spotlight-wrapper">
+          <div class="spotlight-visual">
+            <div class="spotlight-img-card">
+              <img src="assets/chappal-black-charsadda.png" alt="The signature Charsadda Royal in Jet Black with burnished edges" width="500" height="650" loading="lazy">
+              <div class="spotlight-tag">
+                <span class="tag-accent">KHURO SELECTION</span>
+                <span class="tag-number">NO. 01</span>
+              </div>
+              <span class="spotlight-watermark" aria-hidden="true">CHARSADDA</span>
+            </div>
+          </div>
+
+          <div class="spotlight-content">
+            <div class="spotlight-eyebrow-row">
+              <span class="section-eyebrow">Signature Flagship Edition</span>
+              <span class="edition-code">REF: KH-01-BLK</span>
+            </div>
+            <h2 id="featured-heading" class="spotlight-title">
+              The Charsadda Royal.<br>
+              <em>In Jet Black.</em>
+            </h2>
+            <p class="spotlight-description">
+              The absolute benchmark of the Pashtun craft. Features high-sheen vegetable tanned black cowhide, reinforced strap arch, cushioned leather sockliner, and the unmistakable Charsadda point.
+            </p>
+
+            <div class="spotlight-pricing">
+              <div class="price-val">PKR 5,990</div>
+              <div class="price-badge">Free Nationwide Delivery</div>
+            </div>
+
+            <!-- Size Selector -->
+            <div class="spotlight-size-box">
+              <div class="size-header">
+                <label for="spotlight-size">Choose Your Size (EU)</label>
+                <button type="button" class="size-guide-btn" id="size-guide-open">Size Guide</button>
+              </div>
+              <select id="spotlight-size" aria-describedby="spotlight-size-message">
+                <option value="">Select EU Size</option>
+                <option value="39">EU 39 (UK 6)</option>
+                <option value="40">EU 40 (UK 7)</option>
+                <option value="41">EU 41 (UK 7.5)</option>
+                <option value="42">EU 42 (UK 8)</option>
+                <option value="43">EU 43 (UK 9)</option>
+                <option value="44">EU 44 (UK 9.5)</option>
+                <option value="45">EU 45 (UK 10.5)</option>
+              </select>
+              <span class="field-error-hint" id="spotlight-size-message" aria-live="polite"></span>
+            </div>
+
+            <!-- Quantity & Add to Cart -->
+            <div class="spotlight-actions-row">
+              <div class="qty-stepper" aria-label="Select quantity">
+                <button type="button" data-quantity="minus" aria-label="Decrease quantity">−</button>
+                <output id="spotlight-quantity" aria-live="polite">1</output>
+                <button type="button" data-quantity="plus" aria-label="Increase quantity">+</button>
+              </div>
+              <button class="btn btn-primary btn-spotlight-add" id="spotlight-add" type="button">
+                <span>Add to Shopping Bag</span>
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M5 10h10M10 5l5 5-5 5"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Accordion Details -->
+            <div class="spotlight-details">
+              <details class="detail-accordion" open>
+                <summary>
+                  <span>Materials &amp; Craft Specifications</span>
+                  <span class="acc-icon" aria-hidden="true">+</span>
+                </summary>
+                <div class="acc-content">
+                  <p>Upper: 100% Top-layer vegetable tanned cowhide. Sole: Durable vulcanized automotive tyre rubber with welted edge. Insole: Cushioned orthopedic leather arch support.</p>
+                </div>
+              </details>
+              <details class="detail-accordion">
+                <summary>
+                  <span>Care &amp; Leather Maintenance</span>
+                  <span class="acc-icon" aria-hidden="true">+</span>
+                </summary>
+                <div class="acc-content">
+                  <p>Condition with neutral beeswax cream every 4–6 weeks. Brush lightly with horsehair brush. Store in breathable cotton dustbag provided.</p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Heritage & Roots Section -->
+    <section class="heritage-section" id="heritage" aria-labelledby="heritage-heading">
+      <div class="section-container">
+        <div class="heritage-box">
+          <div class="heritage-text">
+            <span class="section-eyebrow light">The Peshawar Valley</span>
+            <h2 id="heritage-heading" class="heritage-title">
+              Where Every Stitch<br>
+              <em>Tells a Dynasty.</em>
+            </h2>
+            <p>
+              Charsadda, situated at the confluence of the Swat and Kabul rivers, was once the ancient Gandharan capital of Pushkalavati. For hundreds of years, leather workers here have forged a style so distinct that wearing a genuine Charsadda chappal is an immediate statement of poise and respect throughout South Asia.
+            </p>
+            <p>
+              At KHURO, we honor this unbroken chain of mastery. We partner directly with artisan workshops in Charsadda to deliver authentic craft straight to your doorstep without compromising quality or tradition.
+            </p>
+            <div class="geo-coordinates">
+              <span class="geo-badge">📍 Charsadda, Khyber Pakhtunkhwa</span>
+              <span class="geo-coords">34°08′43″ N · 71°44′26″ E</span>
+            </div>
+          </div>
+
+          <div class="heritage-visual">
+            <div class="stamp-card">
+              <div class="stamp-inner">
+                <div class="stamp-header">
+                  <span>CHARSADDA</span>
+                  <span>ORIGINAL</span>
+                </div>
+                <div class="stamp-symbol">
+                  <svg viewBox="0 0 48 48" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <circle cx="24" cy="24" r="21" stroke-dasharray="3 3"/>
+                    <circle cx="24" cy="24" r="17"/>
+                    <path d="M16 34 L24 14 L32 34"/>
+                    <line x1="19" y1="28" x2="29" y2="28"/>
+                  </svg>
+                </div>
+                <div class="stamp-footer">
+                  <strong>KHURO PASHTUN ARTISANS</strong>
+                  <small>FOUNDED ON RESPECT · PRESERVED BY HAND</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Social Proof -->
+    <section class="testimonials-section" aria-labelledby="reviews-heading">
+      <div class="section-container">
+        <div class="section-header center-align">
+          <span class="section-eyebrow">Customer Voices</span>
+          <h2 id="reviews-heading" class="section-title">Worn with Pride, <em>Spoken with Truth</em></h2>
+          <p class="section-subtitle">Real experiences from connoisseurs of authentic Charsadda craftsmanship.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <figure class="test-card">
+            <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "The weight, the scent of genuine leather, and the comfort of the tyre sole are unmatched. The Charsadda Royal pair feels tailor-made to my feet from day one."
+            </blockquote>
+            <figcaption class="test-author">
+              <div class="author-avatar">AK</div>
+              <div>
+                <strong>Asfandyar Khan</strong>
+                <small>Peshawar · Verified Buyer</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="test-card">
+            <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "Wore these for my brother's wedding and received non-stop compliments. Outstanding craftsmanship that honors our traditional Pashtun heritage with impeccable style."
+            </blockquote>
+            <figcaption class="test-author">
+              <div class="author-avatar">MY</div>
+              <div>
+                <strong>Muhammad Yousafzai</strong>
+                <small>Islamabad · Verified Buyer</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="test-card">
+            <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              "Finding authentic Charsadda chappals with modern customer service was impossible until KHURO. The packaging and attention to detail are on par with international luxury."
+            </blockquote>
+            <figcaption class="test-author">
+              <div class="author-avatar">TD</div>
+              <div>
+                <strong>Tariq Durrani</strong>
+                <small>Lahore · Verified Buyer</small>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" aria-labelledby="newsletter-heading">
+      <div class="newsletter-card">
+        <div class="newsletter-glow" aria-hidden="true"></div>
+        <div class="newsletter-inner">
+          <span class="section-eyebrow light center">Join The Circle</span>
+          <h2 id="newsletter-heading" class="newsletter-title">
+            Stay Close to the Stitch
+          </h2>
+          <p class="newsletter-desc">
+            Receive exclusive drops, seasonal batch releases, and documentary stories from our artisan cobblers directly to your inbox.
+          </p>
+
+          <form id="newsletter-form" class="newsletter-form" novalidate>
+            <div class="newsletter-input-group">
+              <label for="newsletter-email" class="sr-only">Your email address</label>
+              <input type="email" id="newsletter-email" name="email" placeholder="Enter your email address..." required autocomplete="email">
+              <button type="submit" class="btn btn-gold">
+                <span>Subscribe</span>
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+            <p id="newsletter-message" class="newsletter-feedback" aria-live="polite"></p>
+          </form>
+          <small class="newsletter-privacy">We respect your privacy. No spam, ever. Unsubscribe anytime.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Comprehensive Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-col brand-col">
+        <a class="brand brand-footer" href="#top" aria-label="KHURO home">
+          <span class="brand-crest" aria-hidden="true">
+            <svg viewBox="0 0 36 36" width="30" height="30" fill="none">
+              <circle cx="18" cy="18" r="16" stroke="currentColor" stroke-width="1.4"/>
+              <path d="M12 25 L18 11 L24 25" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="14" y1="21" x2="22" y2="21" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
+          <div class="brand-text">
+            <span class="brand-name">KHURO</span>
+            <span class="brand-tagline">CHARSADDA · 1892</span>
+          </div>
+        </a>
+        <p class="footer-desc">
+          Honoring centuries of Charsadda leather mastery. We craft authentic Pashtun footwear that stands the test of time, geography, and trends.
+        </p>
+        <div class="footer-badge-trust">
+          <span>✓ Hand-Cut In KP</span>
+          <span>✓ Pure Leather</span>
+          <span>✓ Direct Fair-Trade</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Collection</h3>
+        <ul class="footer-links">
+          <li><a href="#collection">The Classics</a></li>
+          <li><a href="#collection">New Forms</a></li>
+          <li><a href="#featured">The Charsadda Royal</a></li>
+          <li><a href="#categories">Wedding Bespoke</a></li>
+          <li><a href="#collection">Limited Editions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Heritage &amp; Craft</h3>
+        <ul class="footer-links">
+          <li><a href="#craft">Our Cobblers</a></li>
+          <li><a href="#heritage">The Peshawar Valley</a></li>
+          <li><a href="#craft">Tyre Rubber Sole Legacy</a></li>
+          <li><a href="#craft">Leather Sourcing</a></li>
+          <li><a href="#featured">Care Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="footer-col-title">Direct Inquiries</h3>
+        <ul class="footer-links footer-contact-list">
+          <li>
+            <a href="mailto:zabeehullah2005@gmail.com" class="contact-link">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>zabeehullah2005@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/923070509981" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+92 307 0509981 (WhatsApp)</span>
+            </a>
+          </li>
+          <li>
+            <span class="location-text">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Charsadda Road, Peshawar, KP</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Developer Credit Section (Preserving Zabeeh Ullah's Profile) -->
+    <div class="developer-showcase" id="developer">
+      <div class="developer-profile-card">
+        <div class="developer-img-wrap">
+          <img src="assets/zabeeh-cv-profile.jpg" alt="Portrait of Zabeeh Ullah, Web Developer" width="100" height="125" loading="lazy">
+          <span class="developer-status" title="Available for projects" aria-hidden="true"></span>
+        </div>
+        <div class="developer-meta">
+          <span class="developer-eyebrow">Designed &amp; Engineered by</span>
+          <h4 class="developer-name">Zabeeh Ullah</h4>
+          <p class="developer-bio">
+            BS Computer Science (5th Semester) at <strong>CUSIT, Peshawar</strong> (CGPA 3.72 / 4.00). Specializing in modern responsive full-stack web applications, UI/UX architecture, JavaScript, PHP &amp; MySQL.
+          </p>
+          <div class="developer-links-bar" aria-label="Connect with Zabeeh Ullah">
+            <a href="https://zabeeh-ullah-dev.github.io/zabeeh-ullah-cv/" target="_blank" rel="noopener noreferrer" class="dev-link">
+              <span>Live Portfolio</span> <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/Zabeeh-Ullah-Dev" target="_blank" rel="noopener noreferrer" class="dev-link">
+              <span>GitHub</span> <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/zabeeh-ullah-1b6094382/" target="_blank" rel="noopener noreferrer" class="dev-link">
+              <span>LinkedIn</span> <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://wa.me/923070509981" target="_blank" rel="noopener noreferrer" class="dev-link">
+              <span>WhatsApp</span> <span aria-hidden="true">↗</span>
+            </a>
+            <a href="mailto:zabeehullah2005@gmail.com" class="dev-link">
+              <span>Email</span> <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="copyright">© <span id="year">2026</span> KHURO Heritage Footwear. Curated by Zabeeh Ullah.</p>
+        <div class="footer-bottom-links">
+          <a href="#top" class="back-to-top-link">Back to top ↑</a>
+        </div>
+      </div>
+      <p class="attribution-note">
+        Historical photography credits: Charsadda Chappal by Smsulari (<a href="https://commons.wikimedia.org/wiki/File:Peshawari_Chappal_Charsadda_Style.jpg" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>), Pakistani Rural Chappal by Khalid Mahmood (<a href="https://commons.wikimedia.org/wiki/File:Pakistani_Rural_Chappal.JPG" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>), Workshop Cobbler by Yasar A. Babar (<a href="https://commons.wikimedia.org/wiki/File:Cobbler_Cobbler_mend_my_shoes.jpg" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>).
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="floating-btt" type="button" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- Interactive Cart Toast -->
+  <div class="cart-toast" id="cart-toast" role="status" aria-live="polite" hidden>
+    <div class="toast-icon">✓</div>
+    <div class="toast-text">
+      <strong id="cart-toast-title">Added to Bag</strong>
+      <span id="cart-toast-message">Your selection is ready</span>
+    </div>
+  </div>
+
+  <!-- Cart Drawer Component -->
+  <div class="drawer-scrim" id="drawer-scrim"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <div>
+        <span class="drawer-eyebrow">Your Selection</span>
+        <h2 id="drawer-title" class="drawer-heading">Shopping Bag <span id="drawer-count">(0)</span></h2>
+      </div>
+      <button class="drawer-close-btn" id="cart-close" type="button" aria-label="Close shopping bag">×</button>
+    </div>
+
+    <div class="drawer-body">
+      <div class="cart-items-list" id="cart-items" aria-live="polite">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="cart-empty-state" id="cart-empty">
+        <div class="empty-bag-icon">🛍️</div>
+        <h3>Your Bag is Empty</h3>
+        <p>Explore our handcrafted Charsadda silhouettes and select your size.</p>
+        <button class="btn btn-primary" id="continue-shopping" type="button">Explore Collection</button>
+      </div>
+    </div>
+
+    <div class="drawer-footer" id="drawer-foot" hidden>
+      <div class="drawer-subtotal">
+        <span>Order Subtotal</span>
+        <strong id="cart-subtotal" class="subtotal-val">PKR 0</strong>
+      </div>
+      <p class="drawer-delivery-note">Free express delivery across Pakistan included</p>
+      <button class="btn btn-primary btn-checkout" type="button" id="checkout-btn">
+        <span>Proceed to Secure Checkout</span>
+        <span aria-hidden="true">→</span>
+      </button>
+      <small class="drawer-demo-note">Concept Storefront: Orders &amp; cart persist in local storage.</small>
+    </div>
+  </aside>
+
+  <!-- Quick View Modal Component -->
+  <dialog class="quick-view-dialog" id="quick-view" aria-labelledby="quick-title">
+    <button class="modal-close-btn" type="button" aria-label="Close quick view">×</button>
+    <div class="quick-view-container" id="quick-view-content">
+      <!-- Injected by script.js -->
+    </div>
+  </dialog>
+</body>
+</html>
